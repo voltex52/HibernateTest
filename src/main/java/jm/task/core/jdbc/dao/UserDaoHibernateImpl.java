@@ -11,13 +11,9 @@ import java.util.List;
 
 public class UserDaoHibernateImpl implements UserDao {
 
-    UserDaoJDBCImpl userDaoJDBC = new UserDaoJDBCImpl();
-
     Transaction transaction = null;
     public UserDaoHibernateImpl() {
-
     }
-
 
     @Override
     public void createUsersTable() {

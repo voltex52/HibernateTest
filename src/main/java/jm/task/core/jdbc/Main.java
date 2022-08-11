@@ -10,8 +10,8 @@ public class Main {
     public static void main(String[] args) {
         UserDaoHibernateImpl userDaoHibernate = new UserDaoHibernateImpl();
 //        userDaoHibernate.createUsersTable();
-//        userDaoHibernate.saveUser("Name1", "LastName1", (byte) 20);
-//        userDaoHibernate.saveUser("Name2", "LastName2", (byte) 25);
+//       userDaoHibernate.saveUser("Name1", "LastName1", (byte) 20);
+//       userDaoHibernate.saveUser("Name2", "LastName2", (byte) 25);
 //        userDaoHibernate.removeUserById(1);
 //        userDaoHibernate.getAllUsers();
 //        userDaoHibernate.cleanUsersTable();
